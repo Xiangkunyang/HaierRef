@@ -288,8 +288,8 @@
 		console.log(pageHeight);
 		$(".transform_box").width((pageHeight) + "px");
 		$(".transform_box").height((pageWidth) + "px");
-		$(".transform_box").css("top",(pageHeight+(pageHeight-pageWidth)/2) + "px");
-		$(".transform_box").css("left",(0-(pageHeight-pageWidth)/2) + "px");
+		$(".transform_box").css("margin-top",((pageHeight-pageWidth)/2) + "px");
+		$(".transform_box").css("margin-left",(0-(pageHeight-pageWidth)/2) + "px");
 		$(".page").width((pageWidth) + "px");
 		$(".page").height((pageHeight) + "px");	
 		$("#video1").width((pageHeight) + "px");
