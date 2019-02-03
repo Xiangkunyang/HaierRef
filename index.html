@@ -309,6 +309,13 @@
 	} ;
 
 	$("#video1").click(function(){
+		var osName = plus.os.name;
+        if(osName === 'Android') {
+            fullScreenOfAndroid();
+        } else if(osName === 'iOS') {
+            var videoElem = document.getElementById('video1');
+            fullScreenOfIos(videoElem);
+        }
 		this.play();
 	});
 	$("#video2").click(function(){
@@ -377,13 +384,7 @@
     };
     // 涉及到5+API的内容，均在plusready事件后调用；
     document.addEventListener('plusready', function() {
-        var osName = plus.os.name;
-        if(osName === 'Android') {
-            fullScreenOfAndroid();
-        } else if(osName === 'iOS') {
-            var videoElem = document.getElementById('video1');
-            fullScreenOfIos(videoElem);
-        }
+        
     });	
 	
 	</script>
