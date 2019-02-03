@@ -308,6 +308,8 @@
 		// $("#Flash1").css("margin-top",pageHeight*144/667 + "px");	
 		$(".transform_box").width((pageHeight) + "px");
 		$(".transform_box").height((pageWidth) + "px");
+		$(".transform_box").css("top",(pageHeight+(pageHeight-pageWidth)/2) + "px");
+		$(".transform_box").css("left",(0-(pageHeight-pageWidth)/2) + "px");
 	} ;
 
 	$("#video1").click(function(){
