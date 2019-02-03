@@ -87,7 +87,7 @@ body {
   left: 0;
   top: 0;
   z-index: 10000;
-  background-color: #7f0f16;
+  background-color: #000;
 }
 /* #pages-container .swiper-wrapper {
   height: 100%;
@@ -96,7 +96,7 @@ body {
 .page1 {
   height: 100%;
   width: 100%;
-  /* background-size: auto 100%; */
+  background-size:100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -107,16 +107,18 @@ body {
   height: 100%;
   width: 100%;
   /* background-size: auto 100%; */
+  background-size:100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-image: url(../img/page2/bg1.jpg);
+  /* background-image: url(../img/page2/bg1.jpg); */
   opacity: 0.8;
 }
 .page3 {
   height: 100%;
   width: 100%;
   /* background-size: auto 100%; */
+  background-size:100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -126,16 +128,18 @@ body {
   height: 100%;
   width: 100%;
   /* background-size: auto 100%; */
+  background-size:100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-image: url(../img/page4/bg1.jpg);
+  /* background-image: url(../img/page4/bg1.jpg); */
   
 }
 .page5 {
   height: 100%;
   width: 100%;
   /* background-size: auto 100%; */
+  background-size:100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -146,15 +150,17 @@ body {
   height: 100%;
   width: 100%;
   /* background-size: auto 100%; */
+  background-size:100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-image: url(../img/page6/bg1.jpg);
+  /* background-image: url(../img/page6/bg1.jpg); */
 }
 .page7{
   height: 100%;
   width: 100%;
   /* background-size: auto 100%; */
+  background-size:100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -164,6 +170,7 @@ body {
   height: 100%;
   width: 100%;
   /* background-size: auto 100%; */
+  background-size:100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -257,21 +264,24 @@ body {
   height: 2%;
 }
 .img1{
-  background-size:100% auto;
+  /* background-size:100% auto; */
+  background-size:100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
   background-image: url(../img/page1/con1.jpg);
 }
 .img2{
-  background-size:100% auto;
+  /* background-size:100% auto; */
+  background-size:100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
   background-image: url(../img/page1/con2.jpg);
 }
 .img3{
-  background-size:100% auto;
+  /* background-size:100% auto; */
+  background-size:100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -317,7 +327,8 @@ body {
   height: 100%;
   /* float: left; */
   margin: 0 auto;
-  background-size:100% auto;
+  /* background-size:100% auto; */
+  background-size:100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -367,8 +378,18 @@ body {
   margin-top: 5px;
 }
 .page3_txt2 .haier{
-  font-size: 28px;
   position: relative;
+  /* overflow: hidden; */
+}
+.page3_txt2 .haier span{
+  font-size: 28px;
+}
+.txt_hai{
+  float: left;
+}
+
+.clear{
+  clear: both;
 }
 .haier .fuhao{
   position: absolute;
@@ -419,7 +440,8 @@ body {
   height: 100%;
   /* float: left; */
   margin: 0 auto;
-  background-size:100% auto;
+  /* background-size:100% auto; */
+  background-size:100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -473,8 +495,17 @@ body {
   margin-top: 5px;
 }
 .page5_txt2 .haier{
-  font-size: 28px;
   position: relative;
+  /* overflow: hidden; */
+}
+.page5_txt2 .haier span{
+  font-size: 28px;
+}
+.txt_hai{
+  float: left;
+}
+.clear{
+  clear: both;
 }
 .haier .fuhao{
   position: absolute;
@@ -514,10 +545,16 @@ body {
   width: 63%;
   height: 100%;
 }
-.page7_con_left1,.page7_con_left3,.page7_con_right1,.page7_con_right3{
+.page7_con_left1,.page7_con_left3{
+  height: 15%;
+}
+.page7_con_left2{
+  height: 70%;;
+}
+.page7_con_right1,.page7_con_right3{
   height: 20%;
 }
-.page7_con_left2,.page7_con_right2{
+.page7_con_right2{
   height: 60%;
 }
 .page7_con_right2 .img_con{
@@ -525,7 +562,8 @@ body {
   height: 100%;
   /* float: left; */
   margin: 0 auto;
-  background-size:100% auto;
+  /* background-size:100% auto; */
+  background-size:100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -598,8 +636,18 @@ body {
   font-size: 19px;
 }
 .page7_txt2 .haier{
-  font-size: 28px;
   position: relative;
+  /* overflow: hidden; */
+}
+.page7_txt2 .haier span{
+  font-size: 28px;
+}
+.txt_hai{
+  float: left;
+}
+
+.clear{
+  clear: both;
 }
 .haier .fuhao{
   position: absolute;
@@ -629,24 +677,35 @@ body {
 .page8_con2{
   height: 24%;
 }
-.page8_center{
+/* .page8_center{
   height: 14%;
 }
 .page8_bottom{
-  height: 40%;
+  height: 30%;
 }
 .page8_bottom1{
-  height: 40%;
-  padding-top: 20%;
+  height: 30%;
+  padding-top: 10%;
 }
 .page8_bottom2{
-  height: 40%;
+  height: 30%;
+} */
+.page8_bottom{
+  position: absolute;
+  left: 0;
+  bottom: 3px;;
+  width: 100%;
+}
+.page8_bottom1{
+  width: 80%;
+  margin: 0 auto;
 }
 
 .txt_con{
   width: 90%;
   margin: 0 auto;
-  padding-left: 80px;
+  /* padding-left: 80px; */
+  padding-left: 50px;
 }
 
 .txt_con1{
@@ -700,6 +759,7 @@ body {
   text-align: center;
   font-size: 14px;
   letter-spacing: 1px;
+  margin-top: 10px;
 }
 .bottom_next img{
   width: 20px;
@@ -708,6 +768,41 @@ body {
 .page8_bottom2 .bottom_next{
   width: 20px;
   height: 20px;
-  margin: 10px auto;
+  margin: 5px auto;
+}
+.img_con{
+  box-shadow: 0 3px 10px 2px #2c0003;
 }
 
+/* 菱形 */
+.ridge{
+  width: 12px;
+  height: 12px;
+  float: left;
+  font-family: "font5";
+  font-size: 11px;
+  padding: 3px;
+  margin-top: 6px;
+  border: 0.5px solid #fff;
+  /* border-style: ridge; */
+  margin-left: 8px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  transform-origin: center center;
+}
+.ridge_txt{
+  width: 12px;
+  height: 12px;
+  -webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  transform-origin: center center;
+}
+.ridge1{
+  margin-left: 8px;
+}
