@@ -8,27 +8,51 @@
 	    <meta name="apple-touch-fullscreen" content="yes">
 	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
 	    <meta name="format-detection" content="telephone=no">
-	    <meta name="screen-orientation" content="portrait">
+	    <meta name="screen-orientation" content="landscape">
 	    <meta name="full-screen" content="yes">
-	    <meta name="x5-orientation" content="portrait">
+	    <meta name="x5-orientation" content="landscape">
 	    <meta name="x5-fullscreen" content="true">
 	    <!-- <link rel="shortcut icon" type="image/x-icon" href="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"> -->
-		<title>海尔智慧家庭，不一样的新年</title>
+		<title>家是年的方向，更是心的归向</title>
 		<style>
-			#page1{
+			/* #page1{
 				width: 414px;
 				height: 896px;;
+			} */
+			#pages-container{
+				display: none;
+			}
+			#mask0{
+				width: 100%;
+				height: 100%;
+				background: #fff;
+			}
+			#mask0 .loading{
+				width: 100px;
+				height: 100px;
+				margin: 0 auto;
+				padding-top: 40%;
+			}
+			#mask0 img{
+				width: 100px;
+				height: 100px;
 			}
 		</style>
 		<link rel="stylesheet" href="./css/style0.css">	
 	</head>
 	<body>
+		<div id="mask0">
+			<div class="loading">
+				<img src="./img/timg.gif" alt="">
+			</div>
+		</div>
 		<section id="pages-container">
 			<section class="page1 page" id="page1">
 				<div class="page1_top">
 					<div class="page1_top1"></div>
 					<div class="page1_con1">
 						<div class="page1_img img1">
+							<div class="img_box"><img src="./img/page1/con1.jpg" alt=""></div>
 						</div>
 						<div class="page1_centerbar"></div>
 						<div class="page1_txt">
@@ -37,7 +61,7 @@
 					</div>
 					<div class="page1_con2">
 						<div class="page1_img img2">
-
+							<div class="img_box"><img src="./img/page1/con2.jpg" alt=""></div>							
 						</div>
 						<div class="page1_centerbar"></div>
 						<div class="page1_txt">
@@ -46,7 +70,7 @@
 					</div>
 					<div class="page1_con3">
 						<div class="page1_img img3">
-
+							<div class="img_box"><img src="./img/page1/con3.jpg" alt=""></div>							
 						</div>
 						<div class="page1_centerbar"></div>
 						<div class="page1_txt">
@@ -67,8 +91,8 @@
 				<!-- <div class="next nextPage">
 					<img src="./img/next.png">
 				</div> -->
-				<div class="transform_box"> 		
-					<video poster="./img/page2/head1.png" id="video1" controls="controls"  preload="preload" loop x5-video-player-type="h5" x5-video-orientation="portraint">
+				<div class="transform_box" id="transform_box1"> 		
+					<video poster="./img/page2/head1.png" id="video1" controls="controls"  preload="preload" loop x5-video-player-type="h5" x5-video-orientation="portraint" >
 						<source src="./img/page2/1.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2'>	
 					</video>
 				</div>
@@ -114,6 +138,7 @@
 							</div>
 							<div class="page3_con_right2">
 								<div class="img_con">
+									<div class="img_box"><img src="./img/page3/img3.jpg" alt=""></div>							
 								</div>
 							</div>
 							<div class="page3_con_right3">
@@ -124,7 +149,7 @@
 			</section>
 			<section class="page4 page" id="page4">
 				<div class="transform_box"> 		
-					<video  poster="./img/page4/head2.png" id="video2" controls="controls"  preload="preload" loop x5-video-player-type="h5" x5-video-orientation="portraint" >
+					<video  poster="./img/page4/head2.png" id="video2" controls="controls"  preload="preload" loop x5-video-player-type="h5" x5-video-orientation="portraint">
 						<source src="./img/page4/2.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2'>	
 					</video>
 				</div>
@@ -170,6 +195,7 @@
 							</div>
 							<div class="page5_con_right2">
 								<div class="img_con">
+									<div class="img_box"><img src="./img/page5/img5.jpg" alt=""></div>							
 								</div>
 							</div>
 							<div class="page5_con_right3">
@@ -180,7 +206,7 @@
 			</section>
 			<section class="page6 page" id="page6">
 				<div class="transform_box"> 		
-					<video poster="./img/page6/head3.png" id="video3" controls="controls"  preload="preload" loop x5-video-player-type="h5" x5-video-orientation="portraint" >
+					<video poster="./img/page6/head3.png" id="video3" controls="controls"  preload="preload" loop x5-video-player-type="h5" x5-video-orientation="portraint">
 						<source src="./img/page6/3.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2'>	
 					</video>
 				</div>
@@ -226,7 +252,7 @@
 							</div>
 							<div class="page7_con_right2">
 								<div class="img_con">
-									
+									<div class="img_box"><img src="./img/page7/img7.png" alt=""></div>																
 								</div>
 							</div>
 							<div class="page7_con_right3">
@@ -235,7 +261,6 @@
 					</div> 		
 				</div>
 			</section>
-
 			<section class="page8 page" id="page8">
 					<div class="transform_box" id="transform_box8">
 						<div id="page8_con">
@@ -274,55 +299,51 @@
 							<div class="bottom_next"><img src="./img/page1/nextPage.png" alt=""></div>
 						</div>	
 					</div>
-				</section>
+			</section>
 		</section>
 	</body>	
 	<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>	
 	<script>  
-	window.onload = function() {
+	$(document).ready(function(){
 		var body1 = document.getElementsByTagName("body")[0];
-		// var v1 = document.getElementsByTagName("video")[0];
 		var pageHeight = body1.clientHeight;
 		var pageWidth = body1.clientWidth;
-		console.log(pageWidth);
-		console.log(pageHeight);
-		$(".transform_box").width((pageHeight) + "px");
-		$(".transform_box").height((pageWidth) + "px");
-		$(".transform_box").css("margin-top",((pageHeight-pageWidth)/2) + "px");
-		$(".transform_box").css("margin-left",(0-(pageHeight-pageWidth)/2) + "px");
-		$(".page").width((pageWidth) + "px");
-		$(".page").height((pageHeight) + "px");	
-		$("#video1").width((pageHeight) + "px");
-		$("#video1").height((pageWidth) + "px");
-		$("#video2").width((pageHeight) + "px");
-		$("#video2").height((pageWidth) + "px");
-		$("#video3").width((pageHeight) + "px");
-		$("#video3").height((pageWidth) + "px");
-		$("#page3_con").width((pageHeight) + "px");
-		$("#page3_con").height((pageWidth) + "px");
-		$("#page5_con").width((pageHeight) + "px");
-		$("#page5_con").height((pageWidth) + "px");
-		$("#page7_con").width((pageHeight) + "px");
-		$("#page7_con").height((pageWidth) + "px");
-		$("#page8_con").width((pageHeight*0.75) + "px");
-		$("#page8_con").height((pageWidth)+ "px");
-		// $("#Flash1").width((pageHeight) + "px");
-		// $("#Flash1").height((pageWidth) + "px");
+		console.log("ready");
+        $(".transform_box").width((pageHeight) + "px");
+        $(".transform_box").height((pageWidth) + "px");
+        $(".transform_box").css("margin-top",((pageHeight-pageWidth)/2) + "px");
+        $(".transform_box").css("margin-left",(0-(pageHeight-pageWidth)/2) + "px");
+        $(".page").width((pageWidth) + "px");
+        $(".page").height((pageHeight) + "px");
+        $("#video1").width((pageHeight) + "px");
+        $("#video1").height((pageWidth) + "px");
+        $("#video2").width((pageHeight) + "px");
+        $("#video2").height((pageWidth) + "px");
+        $("#video3").width((pageHeight) + "px");
+        $("#video3").height((pageWidth) + "px");
+        $("#page3_con").width((pageHeight) + "px");
+        $("#page3_con").height((pageWidth) + "px");
+        $("#page5_con").width((pageHeight) + "px");
+        $("#page5_con").height((pageWidth) + "px");
+        $("#page7_con").width((pageHeight) + "px");
+        $("#page7_con").height((pageWidth) + "px");
+        $("#page8_con").width((pageHeight*0.75) + "px");
+        $("#page8_con").height((pageWidth)+ "px");
+		
 		// $("#Flash1").css("margin-left",-pageHeight*147/667 + "px");	
-		// $("#Flash1").css("margin-top",pageHeight*144/667 + "px");	
+		// $("#Flash1").css("margin-top",pageHeight*144/667 + "px");														
+	} );
+	window.onload=function(){
+		console.log('loaded');
+		$("#mask0").css('display','none');
+		$("#pages-container").css('display','block');
+		var i=1;
+	}
 
-	} ;
-
+	// $("#video1").click(function(){
+	// 	this.play();
+	// });
 	$("#video1").click(function(){
-		console.log(" 1"+plus);
-		var osName = plus.os.name;
-		console.log(" 1"+osName);
-        if(osName === 'Android') {
-            fullScreenOfAndroid();
-        } else if(osName === 'iOS') {
-            var videoElem = document.getElementById('video1');
-            fullScreenOfIos(videoElem);
-        }
 		this.play();
 	});
 	$("#video2").click(function(){
@@ -358,49 +379,27 @@
 // 			smoothscroll();
 // 　　　　}
 // 　　　});
-	 var fullScreenOfAndroid = function() {
-            if(true) {
-                // 最新5+API的支持
-                var self = plus.webview.currentWebview();
-                self.setStyle({
-                    videoFullscreen: 'landscape'
-                });
-            } else {
-                // 如果暂未更新sdk，可以先使用差量升级等方式，做出兼容处理；
-                // 旧版本下的兼容处理
-                document.addEventListener('webkitfullscreenchange', function() {
-                    var el = document.webkitFullscreenElement; //获取全屏元素
-                    if(el) {
-                        plus.screen.lockOrientation('landscape'); //锁死屏幕方向为横屏
-                    } else {
-                        plus.screen.unlockOrientation(); //解除屏幕方向的锁定
-                    }
-                });
-
-            }
-        };
-    // iOS平台的视频全屏旋转
-    var fullScreenOfIos = function(videoElem) {
-        // 监听的事件与Android平台有很大区别
-        videoElem.addEventListener('webkitbeginfullscreen', function() {
-            plus.screen.lockOrientation('landscape'); //锁死屏幕方向为横屏
-        });
-        videoElem.addEventListener('webkitendfullscreen', function() {
-            plus.screen.unlockOrientation(); //解除屏幕方向的锁定
-        });
-    };
-    // 涉及到5+API的内容，均在plusready事件后调用；
-    document.addEventListener('plusready', function() {
-       		console.log(" 5+API"+plus);
-		var osName = plus.os.name;
-		console.log(" 5+API"+osName);
-        if(osName === 'Android') {
-            fullScreenOfAndroid();
-        } else if(osName === 'iOS') {
-            var videoElem = document.getElementById('video1');
-            fullScreenOfIos(videoElem);
-        }
-    });	
-	
+// //进入全屏
+// 	function FullScreen() {
+// 		var ele = document.documentElement;
+// 		if (ele .requestFullscreen) {
+// 			ele .requestFullscreen();
+// 		} else if (ele .mozRequestFullScreen) {
+// 			ele .mozRequestFullScreen();
+// 		} else if (ele .webkitRequestFullScreen) {
+// 			ele .webkitRequestFullScreen();
+// 		}
+// 	}
+// 	//退出全屏
+// 	function exitFullscreen() {
+// 		var de = document;
+// 		if (de.exitFullscreen) {
+// 			de.exitFullscreen();
+// 		} else if (de.mozCancelFullScreen) {
+// 			de.mozCancelFullScreen();
+// 		} else if (de.webkitCancelFullScreen) {
+// 			de.webkitCancelFullScreen();
+// 		}
+// }
 	</script>
 </html>
